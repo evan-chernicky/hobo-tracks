@@ -1,6 +1,6 @@
 class User < ApplicationRecord
     has_secure_password
-    # has_many :trips, dependent: :destroy
+    has_many :trips, dependent: :destroy
     # has_many :stops, through: :trips, dependent: :destroy
     # has_many :favorites
     # has_many :favorited_trips, through: :favorites, source: :trip
