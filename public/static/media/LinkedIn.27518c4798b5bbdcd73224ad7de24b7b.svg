@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.695" height="15.694" viewBox="0 0 15.695 15.694">
+  <g id="linkedin" transform="translate(-14 -14)">
+    <path id="Path_305" data-name="Path 305" d="M28.452,15.02a.221.221,0,0,1,.221.221V28.454a.221.221,0,0,1-.221.221H15.241a.221.221,0,0,1-.221-.221V15.241a.221.221,0,0,1,.221-.221H28.454m0-1.02H15.241A1.241,1.241,0,0,0,14,15.241V28.454a1.241,1.241,0,0,0,1.241,1.24H28.454A1.241,1.241,0,0,0,29.7,28.452V15.241A1.241,1.241,0,0,0,28.452,14Z" fill="#fff"/>
+    <rect id="Rectangle_1108" data-name="Rectangle 1108" width="1.841" height="6.549" transform="translate(17.652 19.713)" fill="#fff"/>
+    <path id="Path_306" data-name="Path 306" d="M58.489,50.4c-1.577,0-1.605.912-1.605.975V50.4H55v6.549h1.883V53.211a.855.855,0,0,1,.978-.92.869.869,0,0,1,.884.9v3.766h1.863v-4.08C60.607,50.941,59.551,50.4,58.489,50.4Z" transform="translate(-34.566 -30.687)" fill="#fff"/>
+    <circle id="Ellipse_284" data-name="Ellipse 284" cx="0.92" cy="0.92" r="0.92" transform="translate(17.652 17.432)" fill="#fff"/>
+  </g>
+</svg>

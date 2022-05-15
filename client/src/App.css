@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #2e3e29;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2e3e29;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(110px);
+            transform: translateY(110px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(80px);
+            transform: translateY(80px);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(110px);
+            transform: translateY(110px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(80px);
+            transform: translateY(80px);
+    opacity: 1;
+  }
+}
+
+/*Google maps styling*/
+
+.gm-style .gm-style-iw-d {
+  overflow: auto !important;
+  min-width: 100px !important;
+  padding: 0 15px 15px 0;
+}
+
+.gm-style-iw.gm-style-iw-c {
+  background:#2e3e29;
+  text-align: center;
+}
+
+.gm-style .gm-style-iw-t::after {
+  background: #2e3e29;
+}
+
+.gm-ui-hover-effect>span {
+  background-color: #fff !important;
+  transform: scale(1.5);
+}
+button.gm-ui-hover-effect {
+  right: 0 !important;
+  top: 0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2e3e29;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+.top-nav a.active:after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  background-color: #e98a15;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
