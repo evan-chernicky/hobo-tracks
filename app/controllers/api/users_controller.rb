@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Api::UsersController < ApplicationController
   before_action :authorize, only: [:show]
   # skip_before_action :verify_authenticity_token
 
