@@ -5,8 +5,8 @@ class User < ApplicationRecord
     # has_many :favorites
     # has_many :favorited_trips, through: :favorites, source: :trip
     # has_one_attached :avatar, dependent: :destroy
-    # validates :username, presence: true, uniqueness: true, length: { minimum: 4, maximum: 16 }
-    # validates :bio, length: { maximum: 160 }
+    validates :username, presence: true, uniqueness: true, length: { minimum: 4, maximum: 16 }
+    validates :bio, length: { maximum: 160 }
 
     
 
