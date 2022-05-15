@@ -1,6 +1,6 @@
 class FollowsController < ApplicationController
     before_action :authorize
-    skip_before_action :verify_authenticity_token
+    # skip_before_action :verify_authenticity_token
 
     def create
         followed_user = params[:followed_user]
