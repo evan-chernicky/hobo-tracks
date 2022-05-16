@@ -66,7 +66,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_15_161555) do
 
   create_table "stops", force: :cascade do |t|
     t.integer "day_id"
-    t.integer "order"
+    t.string "time"
     t.string "latitude"
     t.string "longitude"
     t.string "description"
