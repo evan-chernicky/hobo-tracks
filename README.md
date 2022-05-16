@@ -23,7 +23,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-<img src="images/logo.png" alt="Logo">
+<img src="images/logo.png" alt="Logo" width="200" height="162.45">
   <h3 align="center">HoboTracks</h3>
 
   <p align="center">
