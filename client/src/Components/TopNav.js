@@ -21,8 +21,8 @@ function TopNav() {
       <svg className="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
     </button>
     <div className="w-full md:block md:w-auto" id="mobile-menu">
-      <ul style={{minWidth: "160px"}} className={`flex flex-col shadow-xl md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium top-nav md:relative absolute right-0 top-0 md:bg-green bg-white h-screen md:h-auto pt-24 md:pt-0 md:w-auto duration-300 ${translateNav}`}>
-        <button onClick={() => setIsNavDisplayed(false)} className="top-5 right-2 w-5 h-5 absolute md-hidden">
+      <ul style={{minWidth: "175px"}} className={`md:shadow-transparent flex flex-col shadow-xl md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium top-nav md:relative absolute right-0 top-0 md:bg-green bg-white h-screen md:h-auto pt-24 md:pt-0 md:w-auto duration-300 ${translateNav} md:translate-x-0`}>
+        <button onClick={() => setIsNavDisplayed(false)} className="top-5 right-2 w-5 h-5 absolute md:hidden">
           <img src={CloseButton} alt="Close Button"/>
         </button>
         <li>
