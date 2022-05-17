@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: clamp(.7rem, 1.5vw, 1.125rem);
 }
 
 
