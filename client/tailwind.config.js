@@ -8,6 +8,7 @@ module.exports = {
       xl: '1440px'
     },
     fontSize: {
+      'base': 'clamp(.7rem, 1.5vw, 1.125rem)',
       'lg': 'clamp(.75rem, 1.75vw, 1.125rem)',
       'xl': 'clamp(.9rem, 2vw, 1.25rem)',
       '2xl': 'clamp(1.15rem, 2.5vw, 1.5rem)',
