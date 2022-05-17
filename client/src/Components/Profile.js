@@ -96,7 +96,7 @@ function updateUserData(updatedUser) {
             <img className="rounded-full absolute inset-0 m-auto" src={avatar_url ? avatar_url : DefaultUserImage} alt={`${username}'s avatar`} />
             </div>
             <div className="text-left mx-16 col-span-5" style={{maxWidth: "500px"}}>
-              <h1 className="text-5xl font-bold text-green pb-2">{first_name + " " + last_name}</h1>
+              <h1 className="text-5xl font-bold text-green">{first_name + " " + last_name}</h1>
               <p className="pb-4">@{user.username}</p>
                 <div className="flex pb-3">
                   <button onClick={() => setFollowModal("Following")} className="pr-2 hover:underline"><strong>{followings.length }</strong> Following</button> 
@@ -107,7 +107,7 @@ function updateUserData(updatedUser) {
             </div>
             <div className="px-12 rounded-lg mx-auto flex flex-col content-center justify-center bg-orange py-4">
                 <span className="text-white text-7xl font-bold pb-2">{trip_number}</span>
-                {trip_number === 1 ? <p className="text-white text-2xl font-bold">Trip</p> : <p className="text-white">Trips</p>}
+                {trip_number === 1 ? <p className="text-white text-2xl font-bold">Trip</p> : <p className="text-white text-2xl font-bold">Trips</p>}
               </div>
       </div>
       <h2 className="pb-16 text-left text-5xl font-bold text-green">Trips</h2>
