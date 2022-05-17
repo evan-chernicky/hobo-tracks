@@ -62,7 +62,7 @@ function SignUp() {
   return (
     <div className="flex items-center justify-center min-h-screen pt-14">
       <div className="absolute h-full w-full bg-no-repeat bg-cover blur-lg brightness-125" style={{backgroundImage: `url(${LoginBackground})`}}></div>
-        <div className="z-10 bg-green px-24 py-20 rounded-xl">
+        <div className="z-10 bg-green px-12 lg:px-24 py-20 rounded-xl my-14 mx-8">
           <h2 className="text-center text-4xl font-bold text-white pb-12">Create Account</h2>
           {errorMessage ? <ErrorMessage errorMessage={errorMessage} /> : null}
                         {successMessage ? (
@@ -72,7 +72,7 @@ function SignUp() {
                             </div>
                         ) : null}
           <form className="flex flex-col" onSubmit={(e) => handleSubmit(e)}>
-              <div className="grid grid-cols-2 items-center">
+              <div className="grid lg:grid-cols-2 items-center">
                   <div className="px-8">
                         <div className="px-4 items-center justify-center">
                             <div className="px-6 py-4 border-orange border-2 mb-6 border-dashed w-full display-flex items-center m-auto justify-center">
@@ -98,7 +98,7 @@ function SignUp() {
                         <p className="text-white font-medium text-center pb-2">Profile Picture</p>
                     </div>
                 <div>
-                <div className="grid grid-cols-2">
+                <div className="lg:grid lg:grid-cols-2">
                     <div className="col-span-2 flex flex-col py-2">
                         <label htmlFor="username" className="text-white font-medium text-left pb-2">Username:</label>
                         <input
@@ -126,7 +126,7 @@ function SignUp() {
                                 minLength="4"
                             />
                         </div>
-                        <div className="flex flex-col col-span-1 py-2 pl-2">
+                        <div className="flex flex-col col-span-1 py-2 lg:pl-2">
                             <label htmlFor="password_confirmation" className="text-white font-medium text-left pb-2">Confirm Password:</label>
                             <input
                                 type="password"
@@ -150,7 +150,7 @@ function SignUp() {
                                 required
                             />
                         </div>
-                        <div className="flex flex-col col-span-1 py-2 pl-2">                       
+                        <div className="flex flex-col col-span-1 py-2 lg:pl-2">                       
                             <label htmlFor="avatar" className="text-white font-medium text-left pb-2">Last Name:</label>
                             <input
                                 type="text"

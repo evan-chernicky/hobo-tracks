@@ -36,7 +36,7 @@ function Login({setLoggedInUser}) {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="absolute h-full w-full bg-no-repeat bg-cover blur-lg brightness-125" style={{backgroundImage: `url(${LoginBackground})`}}></div>
-      <div className="z-10 bg-green px-24 py-20 rounded-xl">
+      <div className="z-10 bg-green lg:px-24 px-14 py-20 rounded-xl">
           <h1 className="text-5xl font-bold text-white mb-14">Login</h1>
           <form onSubmit={handleSubmit} className="flex flex-col max-w-md	 mx-auto text-center">
           {errorMessage ? <ErrorMessage errorMessage={errorMessage} /> : null}

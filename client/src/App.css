@@ -144,4 +144,5 @@ button.gm-ui-hover-effect {
   left: 0;
   right: 0;
   margin: auto;
+  max-width: 75px;
 }
