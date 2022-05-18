@@ -39,8 +39,9 @@
 <details open>
   <summary>Table of Contents</summary>
   <ol>
+      <li><a href="#video-walkthrough">Video Walkthrough</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
+    <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -51,7 +52,9 @@
   </ol>
 </details>
 
-
+<!-- VIDEO WALKTHROUGH -->
+## Video Walkthrough
+[![Watch the video][map-screenshot]](https://youtu.be/X4t8KVCbkYU)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -142,4 +145,5 @@ Project Link: [https://hobotracks.herokuapp.com/](https://hobotracks.herokuapp.c
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: https://www.linkedin.com/in/echernicky/
 [product-screenshot]: images/Trip-View.png
+[video-screenshot]: images/Map.png
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
