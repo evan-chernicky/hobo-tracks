@@ -54,7 +54,7 @@
 
 <!-- VIDEO WALKTHROUGH -->
 ## Video Walkthrough
-[![Watch the video][map-screenshot]](https://youtu.be/X4t8KVCbkYU)
+[![Watch the video][video-screenshot]](https://youtu.be/X4t8KVCbkYU)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
