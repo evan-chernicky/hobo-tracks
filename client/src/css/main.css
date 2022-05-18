@@ -1863,6 +1863,10 @@ button.gm-ui-hover-effect {
     font-weight: 500;
   }
 
+  .md\:font-normal {
+    font-weight: 400;
+  }
+
   .md\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));

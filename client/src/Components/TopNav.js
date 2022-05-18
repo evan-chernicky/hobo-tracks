@@ -26,13 +26,13 @@ function TopNav() {
           <img src={CloseButton} alt="Close Button"/>
         </button>
         <li>
-            <NavLink onClick={() => setIsNavDisplayed(false)} to="/about" className="block p-2 relative font-bold md:font-regular md:text-white text-green hover:text-orange md:hover:text-gray-200 duration-200">About</NavLink>
+            <NavLink onClick={() => setIsNavDisplayed(false)} to="/about" className="block p-2 relative font-bold md:font-normal md:text-white text-green hover:text-orange md:hover:text-gray-200 duration-200">About</NavLink>
           </li>
           <li>
-            <NavLink onClick={() => setIsNavDisplayed(false)} to="/login" className="block p-2 relative font-bold md:font-regular md:text-white text-green hover:text-orange md:hover:text-gray-200 duration-200">Login</NavLink>
+            <NavLink onClick={() => setIsNavDisplayed(false)} to="/login" className="block p-2 relative font-bold md:font-normal md:text-white text-green hover:text-orange md:hover:text-gray-200 duration-200">Login</NavLink>
           </li>
           <li>
-            <NavLink onClick={() => setIsNavDisplayed(false)} to="/signup" className="block p-2 relative font-bold md:font-regular md:text-white text-green hover:text-orange md:hover:text-gray-200 duration-200">Signup</NavLink>
+            <NavLink onClick={() => setIsNavDisplayed(false)} to="/signup" className="block p-2 relative font-bold md:font-normal md:text-white text-green hover:text-orange md:hover:text-gray-200 duration-200">Signup</NavLink>
           </li>
       </ul>
     </div>

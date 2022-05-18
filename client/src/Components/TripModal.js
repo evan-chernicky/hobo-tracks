@@ -99,7 +99,7 @@ function CreateTrip({user, setRerender, rerender, editData, setShowTripModal, up
                 <div className="px-6 py-4 border-green border-2 mb-6 border-dashed">
                   {selectedPhoto ? null : <label for="image" className="py-2 px-2 text-center m-auto text-orange font-medium duration-300 hover:scale-95 cursor-pointer flex justify-center">Preview Image</label>}
                     {selectedPhoto ? (
-                      <div className="bg-gray-300	h-40 overflow-hidden relative my-4 border" style={{maxWidth: "180px"}}>
+                      <div className="m-auto bg-gray-300	h-40 overflow-hidden relative my-4 border" style={{maxWidth: "180px"}}>
                         <img className="absolute inset-0 min-h-full w-full m-auto object-cover" src={hasExistingPhoto ? selectedPhoto : window.URL.createObjectURL(selectedPhoto)} alt={selectedPhoto.name} />
                         <button className="z-10 absolute w-4 bg-white rounded-full right-2 top-2" onClick={() => setSelectedPhoto(null)}>
                           <img src={CloseButton} className="scale-50" alt="close button"/>
