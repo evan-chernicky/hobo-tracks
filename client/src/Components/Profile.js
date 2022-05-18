@@ -56,7 +56,7 @@ function renderFollowButton() {
 }
 
 function unfollowUser() {
-  fetch(`/follows/${user.id}`,{
+  fetch(`/api/follows/${user.id}`,{
     method: 'DELETE'
   })
   .then(resp => {
@@ -67,7 +67,7 @@ function unfollowUser() {
 }
 
 function followUser() {
-  fetch(`/follows/`, {
+  fetch(`/api/follows/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

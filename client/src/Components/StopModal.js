@@ -48,7 +48,7 @@ function CreateStopModal({updateStopData, editData, onPlaceChanged, focusedCords
     }, [editData])
 
 
-    function renderNewDay(e) {
+    function renderNewStop(e) {
         e.preventDefault()
 
         //If there is a day ID, it's going to be a PATCH request
@@ -148,7 +148,7 @@ function CreateStopModal({updateStopData, editData, onPlaceChanged, focusedCords
                     <img className="w-6 absolute top-5 right-5" src={CloseButton} alt="close button" />
                 </button>
                 <h2 className="text-center text-4xl font-bold text-green pb-12">{editData ? "Edit" : "Add"} Stop</h2>
-                    <form className="flex flex-col w-64" onSubmit={(e) => renderNewDay(e)}>
+                    <form className="flex flex-col w-64" onSubmit={(e) => renderNewStop(e)}>
                     {errorMessage ? <ErrorMessage errorMessage={errorMessage} /> : null}
                     <label htmlFor="name" className="text-green font-medium text-left pb-2 mt-4">Name of Stop:</label>
                     <input 
