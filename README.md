@@ -145,5 +145,5 @@ Project Link: [https://hobotracks.herokuapp.com/](https://hobotracks.herokuapp.c
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: https://www.linkedin.com/in/echernicky/
 [product-screenshot]: images/Trip-View.png
-[video-screenshot]: images/Map.png
+[video-screenshot]: images/video-preview.png
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
