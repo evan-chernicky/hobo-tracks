@@ -37,6 +37,8 @@ function CreateStopModal({updateStopData, editData, onPlaceChanged, focusedCords
     //PATCH request is defined by whether or not there is editData!
 
     useEffect(() => {
+      setLocation("")
+
       if (editData) {
         setDescription(editData.description)
         setTime(editData.time)
