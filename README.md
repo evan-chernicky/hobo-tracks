@@ -27,7 +27,7 @@
   <h3 align="center">HoboTracks</h3>
 
   <p align="center">
-    Create a personal journal of your trip, follow other travel's journeys, and see what messages they left behind all over the globe.
+    Create a personal journal of your trip, follow other travelers' journeys, and see what messages they left behind all over the globe.
     <br />
     <a href=https://hobotracks.herokuapp.com/"><strong>View Demo »</strong></a>
   </p>

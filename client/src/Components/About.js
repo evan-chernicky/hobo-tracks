@@ -17,7 +17,7 @@ function About() {
     <div className="h-100 w-100 bg-no-repeat bg-cover text-left lg:px-20 px-10 flex lg:flex-col flex-col-reverse">
       <div>
         <h2 className="text-5xl max-w-xl leading-tight text-green font-bold max-w-md pb-6">Pass a note for the next person</h2>
-        <p className="text-lg mb-12">Inspired from the explorers and adventures of the past, HoboTracks takes inspiration from the "Hobo Code" used in the early 20th century train hoppers. HoboTracks allows you to create a personal journal of your trip, follow other travel's journeys, and see what messages they left behind all over the globe. <strong className="text-orange">Our mission is to create a community of explorers who are able to learn from the experience of others, while passing along a note for the next person.</strong></p>
+        <p className="text-lg mb-12">Inspired from the explorers and adventures of the past, HoboTracks takes inspiration from the "Hobo Code" used in the early 20th by train hoppers. HoboTracks allows you to create a personal journal of your trip, follow other travelers' journeys, and see what messages they left behind all over the globe. <strong className="text-orange">Our mission is to create a community of explorers who are able to learn from the experience of others, while passing along a note for the next person.</strong></p>
       </div>
         <img className="mb-8" src={Mountains} alt="Mountains" />
     </div>
