@@ -67,7 +67,7 @@ function SignUp() {
           {errorMessage ? <ErrorMessage errorMessage={errorMessage} /> : null}
                         {successMessage ? (
                             <div class="bg-white border-2 border-orange px-4 py-3 rounded relative mb-4" role="alert">
-                              <strong class="font-bold">Your accout has successfully been created! </strong>
+                              <strong class="font-bold">Your account has successfully been created! </strong>
                               <span class="block sm:inline">{errorMessage}</span>
                             </div>
                         ) : null}
