@@ -5,10 +5,7 @@ import Website from './assets/website.svg'
 import Instagram from './assets/Instagram.svg'
 import Medium from './assets/medium.svg'
 import LinkedIn from './assets/LinkedIn.svg'
-
-
-
-
+import GitHub from './assets/github-white.svg'
 
 
 function About() {
@@ -32,6 +29,9 @@ function About() {
         <div className="flex flex-row mt-6">
           <a className="pr-3" href="https://evanchernicky.com/" target="_blank" rel="noreferrer">
             <img className="w-5" src={Website} alt="Evan Chernicky Website"/>
+          </a>
+          <a className="pr-3" href="https://github.com/evan-chernicky" target="_blank" rel="noreferrer">
+            <img className="w-5" src={GitHub} alt="Evan Chernicky Github"/>
           </a>
           <a className="pr-3" href="https://www.linkedin.com/in/echernicky/" target="_blank" rel="noreferrer">
             <img className="w-5" src={LinkedIn} alt="Evan Chernicky LinkedIn"/>
