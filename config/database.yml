@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: hobotracks_live_production
-  username: hobotracks_live
-  password: <%= ENV["HOBOTRACKS_LIVE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
