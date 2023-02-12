@@ -13,7 +13,7 @@ function Map({focusedCords, setMap, map, stopsData, setFocusedCords, type}) {
 
 
 
-
+console.log(process.env.REACT_APP_GOOGLE_API_KEY)
 
     const {isLoaded} = useJsApiLoader({
         googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
@@ -256,7 +256,6 @@ function Map({focusedCords, setMap, map, stopsData, setFocusedCords, type}) {
           else {
             map.panTo(center)
             map.setZoom(3)
-            console.log(map)
           }
         }
     
