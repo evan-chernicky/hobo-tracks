@@ -78,9 +78,6 @@ test:
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
-#
 production:
   <<: *default
-  database: hobotracks_live_production
-  username: hobotracks_live
-  password: <%= ENV["HOBOTRACKS_LIVE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
