@@ -11,10 +11,6 @@ function Map({focusedCords, setMap, map, stopsData, setFocusedCords, type}) {
   const [windowOpen, setWindowOpen] = useState(false)
   const [windowID, setWindowID] = useState("")
 
-
-
-console.log(process.env.REACT_APP_GOOGLE_API_KEY)
-
     const {isLoaded} = useJsApiLoader({
         googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
         libraries: ['places']
