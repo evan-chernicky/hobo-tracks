@@ -1,22 +1,5 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -29,7 +12,7 @@
   <p align="center">
     Create a personal journal of your trip, follow other travelers' journeys, and see what messages they left behind all over the globe.
     <br />
-    <a href=https://hobotracks.herokuapp.com/"><strong>View Demo »</strong></a>
+    <a href=https://hobo-tracks.com/"><strong>View Demo »</strong></a>
   </p>
 </div>
 
@@ -59,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![HoboTracks Screen Shot][product-screenshot]](https://hobotracks.herokuapp.com/)
+[![HoboTracks Screen Shot][product-screenshot]](https://hobo-tracks.com/)
 
 Inspired from the explorers and adventures of the past, HoboTracks takes inspiration from the "Hobo Code" used in the early 20th century train hoppers. HoboTracks allows you to create a personal journal of your trip, follow other travel's journeys, and see what messages they left behind all over the globe.
 
@@ -125,7 +108,7 @@ Evan Chernicky
 * [Email](echernicky@gmail.com)
 
 
-Project Link: [https://hobotracks.herokuapp.com/](https://hobotracks.herokuapp.com/)
+Project Link: [https://hobo-tracks.com/](https://hobo-tracks.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
